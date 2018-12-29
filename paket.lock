@@ -1,6 +1,7 @@
 RESTRICTION: >= net461
 NUGET
   remote: https://www.nuget.org/api/v2
+    FSharp.Core (4.3.4) - redirects: force
     FSharp.Data.SqlClient (1.8.2)
     Microsoft.Azure.KeyVault.Core (2.0.4)
     Newtonsoft.Json (11.0.2)
@@ -10,6 +11,8 @@ NUGET
       Newtonsoft.Json (>= 10.0.2)
 
 GROUP Build
+RESTRICTION: >= net461
 NUGET
   remote: https://www.nuget.org/api/v2
     FAKE (4.64.11)
+    FSharp.Core (4.3.4) - redirects: force

@@ -20,8 +20,6 @@
     <None Include="Ch13_Evolution.fsx" />
     <None Include="paket.references" />
   </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' != 'netstandard1.6' ">
-    <Reference Include="System.Runtime" />
-  </ItemGroup>  
+  <Import Project="..\..\netfx.props" />
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

@@ -7,18 +7,17 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="README.md" />
-    <Compile Include="Result.fs" />
-    <Compile Include="Common.SimpleTypes.fs" />
-    <Compile Include="Common.CompoundTypes.fs" />
-    <Compile Include="PlaceOrder.PublicTypes.fs" />
-    <Compile Include="PlaceOrder.Implementation%28without effects%29.fs" />
-    <Compile Include="PlaceOrder.Implementation.fs" />
-    <Compile Include="PlaceOrder.Dto.fs" />
-    <Compile Include="PlaceOrder.Api.fs" />
-    <Compile Include="AssemblyInfo.fs" />
-    <Content Include="App.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="Common.fsx" />
+    <None Include="Ch04_Types.fsx" />
+    <None Include="Ch05_DomainModeling.fsx" />
+    <None Include="Ch06_DomainIntegrity.fsx" />
+    <None Include="Ch07_ModelingWorkflow.fsx" />
+    <None Include="Ch08_Functions.fsx" />
+    <None Include="Ch09_Pipeline.fsx" />
+    <None Include="Ch10_Errors.fsx" />
+    <None Include="Ch11_Serialization.fsx" />
+    <None Include="Ch12_Persistence.fsx" />
+    <None Include="Ch13_Evolution.fsx" />
     <None Include="paket.references" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' != 'netstandard1.6' ">
